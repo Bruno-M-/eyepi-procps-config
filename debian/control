@@ -1,0 +1,13 @@
+Source: eyepi-procps-config
+Section: admin
+Priority: important
+Maintainer: Bruno Maitre <bruno.maitre@gmail.com>
+Build-Depends: debhelper (>= 7.0.0~), config-package-dev (>= 5.0), procps
+Standards-Version: 3.9.2
+
+Package: eyepi-procps-config
+Architecture: all
+Depends: ${misc:Depends}, procps, initscripts
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: Eye Pi procps configuration
