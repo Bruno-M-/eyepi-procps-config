@@ -1,3 +1,9 @@
+eyepi-procps-config (1.1) unstable; urgency=medium
+
+  * Switch to unstable 
+
+ -- Bruno Maitre <bruno.maitre@gmail.com>  Wed, 04 Mar 2015 20:25:38 +0100
+
 eyepi-procps-config (1.0) stable; urgency=medium
 
   * Initial release.
